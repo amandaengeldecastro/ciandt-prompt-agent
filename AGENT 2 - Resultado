@@ -1,0 +1,132 @@
+Olá! Recebi suas informações do entrevistador.  
+
+Vejo que você escolheu **Arquiteto de Sistemas** e tem **8 horas por semana** para estudar. Excelente escolha!  
+
+Vou montar agora seu plano completo personalizado...
+
+---
+
+🧩 **VISÃO DO DIA A DIA**
+
+Como é o trabalho de um(a) Arquiteto de Sistemas:
+
+- Definir padrões e diretrizes de arquitetura para aplicações corporativas  
+- Avaliar tecnologias e frameworks para integração de sistemas  
+- Criar diagramas de arquitetura e documentação técnica  
+- Apoiar equipes de desenvolvimento na implementação de soluções escaláveis  
+- Garantir segurança, performance e governança das aplicações  
+
+---
+
+🧠 **MAPA DE SKILLS**
+
+**CORE SKILLS (essenciais):**  
+- Design de Arquitetura  
+- Java e Spring Boot  
+- Cloud Computing  
+
+**NICE-TO-HAVE (complementares):**  
+- Microservices  
+- DevOps  
+
+**FERRAMENTAS E TECNOLOGIAS:**  
+- AWS / Azure  
+- Docker  
+- Kubernetes  
+
+---
+
+📅 **ROADMAP DE 90 DIAS**
+
+ADAPTADO PARA: **8 horas/semana**
+
+**MÊS 1 - FUNDAMENTOS**
+
+**SEMANA 1-2:**  
+- Revisar conceitos de arquitetura de software (camadas, padrões)  
+- Estudar fundamentos de cloud (IaaS, PaaS, SaaS)  
+
+**SEMANA 3-4:**  
+- Praticar com Spring Boot e APIs REST  
+- Criar diagramas simples de arquitetura com UML  
+
+**MÊS 2 - PRÁTICA**
+
+**SEMANA 5-6:**  
+- Estudar microservices e comunicação entre sistemas  
+- Implementar projeto de integração com APIs externas  
+
+**SEMANA 7-8:**  
+- Introdução a Docker e containers  
+- Publicar aplicação containerizada em ambiente cloud  
+
+**MÊS 3 - PORTFÓLIO E PREPARAÇÃO**
+
+**SEMANA 9-10:**  
+- Criar arquitetura completa de um sistema corporativo fictício  
+- Documentar decisões técnicas e trade-offs  
+
+**SEMANA 11-12:**  
+- Revisar fundamentos e reforçar pontos fracos  
+- Simular entrevistas técnicas e revisar portfólio  
+
+---
+
+🚀 **PROJETO DE PORTFÓLIO**
+
+**PROJETO:** Sistema de Gestão de Pedidos com Arquitetura em Microservices  
+
+**O QUE FAZER:**  
+Desenhar e implementar uma arquitetura baseada em microservices para um sistema de pedidos, com autenticação, catálogo e integração com pagamento.  
+
+**ENTREGÁVEIS:**  
+- Diagramas de arquitetura (UML, C4 Model)  
+- Código em Java/Spring Boot com serviços independentes  
+- Deploy em ambiente cloud com Docker/Kubernetes  
+
+**CRITÉRIOS DE ACEITAÇÃO:**  
+- Documentação clara das decisões arquiteturais  
+- Serviços funcionando de forma independente e integrada  
+- Deploy funcional em ambiente cloud  
+
+**DICA:** Use C4 Model para documentar a arquitetura e pratique explicando suas decisões como se estivesse em uma entrevista.  
+
+---
+
+💬 **ROTEIRO DE ENTREVISTAS**
+
+**PERGUNTA 1:** "Qual a diferença entre monólito e microservices?"  
+**COMO RESPONDER:** Explique que monólito é uma aplicação única e microservices são serviços independentes, destacando vantagens e desafios.  
+
+**PERGUNTA 2:** "Como você garante escalabilidade em uma arquitetura?"  
+**COMO RESPONDER:** Cite uso de load balancers, horizontal scaling e boas práticas de design.  
+
+**PERGUNTA 3:** "O que é um API Gateway e por que usá-lo?"  
+**COMO RESPONDER:** Explique que é um ponto central de entrada para microservices, garantindo segurança, roteamento e monitoramento.  
+
+**PERGUNTA 4:** "Como você documenta suas decisões arquiteturais?"  
+**COMO RESPONDER:** Cite diagramas, ADRs (Architecture Decision Records) e comunicação clara com o time.  
+
+**PERGUNTA 5:** "Qual sua experiência com cloud?"  
+**COMO RESPONDER:** Relate projetos práticos, serviços utilizados e como aplicou boas práticas de segurança e escalabilidade.  
+
+---
+
+🎓 **TRILHA DIO RECOMENDADA**
+
+**TRILHA:** *Bootcamp Java com Spring Boot e Cloud*  
+
+**POR QUE ESSA TRILHA:**  
+Ela conecta diretamente sua experiência em Java e integra fundamentos de arquitetura com práticas modernas de cloud, preparando você para atuar como arquiteto de sistemas.  
+
+**PRÓXIMOS PASSOS:**  
+1. Acesse dio.me  
+2. Busque por "Bootcamp Java com Spring Boot e Cloud"  
+3. Inscreva-se gratuitamente  
+4. Siga o cronograma junto com este roadmap  
+
+---
+
+✨ Seu plano está pronto!  
+
+Lembre-se: o mais importante é a constância, não a velocidade. Comece pela Semana 1 e vá no seu ritmo.  
