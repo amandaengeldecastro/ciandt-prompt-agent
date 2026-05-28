@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora EcoTrip: Simulador de Impacto Ambiental para Viagens</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">🍃 Calculadora EcoTrip</h1>
+      <p class="header__subtitle">
+        Simulador de Impacto Ambiental para Viagens — descubra quanto CO₂ sua viagem emite e como neutralizar esse impacto.
+      </p>
+    </header>
+
+    <main class="main">
+      <form id="calculator-form" class="calculator-form">
+
+        <div class="calculator-form__field">
+          <label class="calculator-form__label" for="origin">Origem</label>
+          <div class="autocomplete">
+            <input
+              class="calculator-form__input"
+              id="origin"
+              type="text"
+              placeholder="Digite a cidade de origem"
+              autocomplete="off"
+              required
+            />
+            <ul class="autocomplete__dropdown hidden" id="origin-dropdown" role="listbox"></ul>
+          </div>
+        </div>
+
+        <div class="calculator-form__field">
+          <label class="calculator-form__label" for="destination">Destino</label>
+          <div class="autocomplete">
+            <input
+              class="calculator-form__input"
+              id="destination"
+              type="text"
+              placeholder="Digite a cidade de destino"
+              autocomplete="off"
+              required
+            />
+            <ul class="autocomplete__dropdown hidden" id="destination-dropdown" role="listbox"></ul>
+          </div>
+        </div>
+
+        <div class="calculator-form__field">
+          <label class="calculator-form__label" for="distance">Distância (km)</label>
+          <input
+            class="calculator-form__input calculator-form__input--readonly"
+            id="distance"
+            type="number"
+            readonly
+            placeholder="0"
+          />
+          <span class="calculator-form__helper">A distância será preenchida automaticamente</span>
+        </div>
+
+        <div class="calculator-form__field calculator-form__field--checkbox">
+          <input
+            class="calculator-form__checkbox"
+            id="manual-distance"
+            type="checkbox"
+          />
+          <label class="calculator-form__checkbox-label" for="manual-distance">
+            Inserir distância manualmente
+          </label>
+        </div>
+
+        <fieldset class="calculator-form__transport">
+          <legend class="calculator-form__transport-legend">Modo de transporte</legend>
+          <div class="transport-grid">
+
+            <label class="transport-grid__option" for="transport-bicycle">
+              <input
+                class="transport-grid__radio"
+                id="transport-bicycle"
+                type="radio"
+                name="transport"
+                value="bicycle"
+              />
+              <span class="transport-grid__icon">🚲</span>
+              <span class="transport-grid__text">Bicicleta</span>
+            </label>
+
+            <label class="transport-grid__option" for="transport-car">
+              <input
+                class="transport-grid__radio"
+                id="transport-car"
+                type="radio"
+                name="transport"
+                value="car"
+                checked
+              />
+              <span class="transport-grid__icon">🚗</span>
+              <span class="transport-grid__text">Carro</span>
+            </label>
+
+            <label class="transport-grid__option" for="transport-bus">
+              <input
+                class="transport-grid__radio"
+                id="transport-bus"
+                type="radio"
+                name="transport"
+                value="bus"
+              />
+              <span class="transport-grid__icon">🚌</span>
+              <span class="transport-grid__text">Ônibus</span>
+            </label>
+
+            <label class="transport-grid__option" for="transport-truck">
+              <input
+                class="transport-grid__radio"
+                id="transport-truck"
+                type="radio"
+                name="transport"
+                value="truck"
+              />
+              <span class="transport-grid__icon">🚚</span>
+              <span class="transport-grid__text">Caminhão</span>
+            </label>
+
+          </div>
+        </fieldset>
+
+        <button class="calculator-form__submit" type="submit">
+          Calcular emissão
+        </button>
+
+      </form>
+
+      <section id="results" class="results hidden">
+        <div id="results-content"></div>
+      </section>
+
+      <section id="comparison" class="comparison hidden">
+        <div id="comparions-content"></div>
+      </section>
+
+      <section id="carbon-credits" class="carbon-credits hidden">
+        <div id="carbon-credits-content"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__credits">
+        Desenvolvido para a DIO | Projeto GitHub — gerado com Claude (not Copilot)
+      </p>
+    </footer>
+
+    <script src="js/routes-data.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
